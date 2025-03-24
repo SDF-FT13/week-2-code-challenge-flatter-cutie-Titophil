@@ -13,7 +13,7 @@ fetch("http://localhost:3000/characters")
    let selectedCharacter = null
 
     characters.forEach(character => {
-    let card = document.createElement('li')
+    let card = document.createElement('span')
     card.className = "Card"
     card.textContent = character.name 
 
